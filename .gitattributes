@@ -1,0 +1,4 @@
+*.pb
+*.data* filter=lfs diff=lfs merge=lfs -text
+*.index
+Capture.JPG
