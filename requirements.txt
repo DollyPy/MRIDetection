@@ -1,4 +1,6 @@
 numpy
+streamlit
+opencv-python==4.10.0.84
 Pillow==9.2.0
 streamlit==1.16.0
 tensorflow==2.7.3
