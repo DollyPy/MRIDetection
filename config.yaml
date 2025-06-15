@@ -1,0 +1,6 @@
+path: 'C:\Users\RLS\Documents\GitHub\MRIDetection\'
+train: data/images/train
+val: data/images/train
+names: 
+    0: LS
+    1: SC

@@ -1,6 +1,11 @@
+runs/
+temp/
+models/train*/
+yolo_*/
+dataset/
+old/
 plantvillage*
 pred_set
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
-AppleModel/
