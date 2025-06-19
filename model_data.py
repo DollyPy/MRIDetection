@@ -57,7 +57,7 @@ def make_pred(image_path, conf_threshold=0.25, brightness=1.5):
 
     return np_image
 try:
-    model = YOLO("runs/detect/train6/weights/best.pt")
+    model = YOLO("models/best.pt")
 except Exception as e:
     st.error(f"Model load failed: {e}")
     st.stop()
