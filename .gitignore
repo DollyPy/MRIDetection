@@ -9,3 +9,11 @@ pred_set
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
+*.R*
+final*
+file_*
+plots/
+roc/
+batch3*
+b2_test
+metrics/
