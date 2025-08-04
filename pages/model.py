@@ -23,7 +23,7 @@ if uploaded_file:
     fault_preds = predict_faults(bright_image)
 
     with col1:
-        st.image(image_with_boxes, caption="Detected Image", use_column_width=True)
+        st.image(image_with_boxes, caption="Detected Image", use_container_width=True)
     with col2:
         st.markdown("## Predicted Faults")
         for label, (status, score) in fault_preds.items():
